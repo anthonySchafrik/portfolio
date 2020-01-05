@@ -7,15 +7,15 @@ const NavBar = () => {
   return (
     <div className="container">
       <Link to="/">
-        <button>Home</button>
+        <button className="btn">Home</button>
       </Link>
 
       <Link to="/work">
-        <button>Work</button>
+        <button className="btn">Work</button>
       </Link>
 
       <Link to="/Resume">
-        <button>Resume</button>
+        <button className="btn">Resume</button>
       </Link>
     </div>
   );
