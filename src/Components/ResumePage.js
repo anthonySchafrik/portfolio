@@ -28,7 +28,6 @@ class ResumePage extends Component {
               onLoadError={console.error}
               file={resume}
               onLoadSuccess={this.onDocumentLoadSuccess}
-              scale={3}
             >
               <Page pageNumber={pageNumber} />
             </Document>
@@ -44,7 +43,7 @@ class ResumePage extends Component {
             size="2x"
             onClick={() => this.setState({ pageNumber: 1 })}
           />
-          <span className="pageNums">
+          <span className="centerWithSideSpace">
             Page {pageNumber} of {numPages}
           </span>
           <FontAwesomeIcon
@@ -52,6 +51,9 @@ class ResumePage extends Component {
             size="2x"
             onClick={() => this.setState({ pageNumber: 2 })}
           />
+          <a className="centerWithSideSpace" href={resume} download>
+            Click to download Resume
+          </a>
         </div>
       </>
     );
