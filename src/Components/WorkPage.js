@@ -13,7 +13,7 @@ const WorkPage = () => {
             width: '60vw'
           }}
         >
-          1
+          Employee Onboarding Portal
         </div>
         <div
           className="appInfoBoxes"
@@ -21,7 +21,7 @@ const WorkPage = () => {
             width: '58vw'
           }}
         >
-          2
+          Poka Cheat
         </div>
         <div
           className="appInfoBoxes"
@@ -29,7 +29,7 @@ const WorkPage = () => {
             width: '56vw'
           }}
         >
-          3
+          Paper Dragon
         </div>
         <div
           className="appInfoBoxes"
@@ -37,7 +37,7 @@ const WorkPage = () => {
             width: '54vw'
           }}
         >
-          4
+          Gift Giving Elephant
         </div>
         <div
           className="appInfoBoxes"
@@ -45,7 +45,7 @@ const WorkPage = () => {
             width: '52vw'
           }}
         >
-          15
+          Pocket Goblin
         </div>
         <div
           className="appInfoBoxes"
@@ -53,7 +53,7 @@ const WorkPage = () => {
             width: '50vw'
           }}
         >
-          6
+          Goonies
         </div>
         <div
           className="appInfoBoxes"
@@ -61,7 +61,7 @@ const WorkPage = () => {
             width: '52vw'
           }}
         >
-          7
+          KidDash
         </div>
       </div>
 

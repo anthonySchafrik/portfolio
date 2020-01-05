@@ -1,0 +1,15 @@
+.ResumePageContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.pageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.pageNums {
+  align-self: center;
+  margin: 0 1vw 0 1vw;
+}
