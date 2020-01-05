@@ -1,0 +1,21 @@
+.workContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.workPicContainer {
+  align-self: flex-end;
+  margin-right: 10vw;
+}
+
+.appInfoBoxes {
+  background-color: rgb(81, 58, 130);
+  height: 100px;
+  margin: 15px 0 15px 0;
+}
+
+@media (max-width: 900px) {
+  .workPicContainer {
+    display: none;
+  }
+}
