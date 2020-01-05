@@ -1,0 +1,30 @@
+.homeContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.picContainer {
+  margin: 15vh 0 0 6vw;
+}
+
+.aboutMe {
+  margin-top: 40vh;
+  width: 32vw;
+  margin-left: -5vw;
+}
+
+.name {
+  margin: -2vh 0vh 0vh 7vw;
+}
+
+@media (max-width: 770px) {
+  .aboutMe {
+    margin: 5vh 0 0 30vw;
+    width: 60vw;
+  }
+
+  .name {
+    margin: 5vw 0 0 30vw;
+  }
+}
