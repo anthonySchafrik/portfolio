@@ -11,4 +11,5 @@
 .centerWithSideSpace {
   align-self: center;
   margin: 0 1vw 0 1vw;
+  color: black;
 }

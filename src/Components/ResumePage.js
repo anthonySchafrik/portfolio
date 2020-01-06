@@ -3,7 +3,7 @@ import { Document, Page, pdfjs } from 'react-pdf';
 import { faAngleLeft, faAngleRight } from '@fortawesome/fontawesome-free-solid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import resume from '../resume/aSchafrikResume.pdf';
+import resume from '../resume/AnthonySchafrikResume.pdf';
 import './ResumePage.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;

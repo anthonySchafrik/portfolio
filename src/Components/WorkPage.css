@@ -13,10 +13,11 @@
   margin: 15px 0 15px 0;
   border-radius: 10px;
   padding: 0.5vw 0.5vw 0.1vw 0.5vw;
+  color: rgb(216, 210, 229);
 }
 
-a {
-  color: black;
+.githubLink {
+  color: rgb(216, 210, 229);
 }
 
 @media (max-width: 900px) {

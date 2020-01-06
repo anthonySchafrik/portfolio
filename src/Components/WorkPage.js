@@ -51,7 +51,10 @@ const WorkPage = () => {
             is not found within the PokeAPI. With help from Cheerio, I am able
             to retrieve the correct Pokemon statistics.
           </p>
-          <a href="https://github.com/anthonySchafrik/poka-cheat">
+          <a
+            className="githubLink"
+            href="https://github.com/anthonySchafrik/poka-cheat"
+          >
             Poka Cheat github
           </a>
         </div>
@@ -69,7 +72,10 @@ const WorkPage = () => {
             coding process. Pro tip - bad idea, I don't recommend it. All joking
             aside, it is a text-based RPG that I am still actively working on.
           </p>
-          <a href="https://github.com/anthonySchafrik/paper-dragon">
+          <a
+            className="githubLink"
+            href="https://github.com/anthonySchafrik/paper-dragon"
+          >
             Paper Dragon github
           </a>
         </div>
@@ -89,7 +95,10 @@ const WorkPage = () => {
             worked on once I learned how to link a client server and database
             together.
           </p>
-          <a href="https://github.com/anthonySchafrik/gift-giving-elephant">
+          <a
+            className="githubLink"
+            href="https://github.com/anthonySchafrik/gift-giving-elephant"
+          >
             Gift Giving Elephant github
           </a>
         </div>
@@ -114,7 +123,10 @@ const WorkPage = () => {
             period. My responsibilities included building the entire front-end
             of the app.
           </p>
-          <a href="https://github.com/anthonySchafrik/pocket-goblin-client">
+          <a
+            className="githubLink"
+            href="https://github.com/anthonySchafrik/pocket-goblin-client"
+          >
             Pocket Goblin github
           </a>
         </div>
@@ -136,7 +148,10 @@ const WorkPage = () => {
             free) to pull and display all temperatures, precipitation
             probability, humidity, and cloud coverage.
           </p>
-          <a href="https://github.com/anthonySchafrik/goonies">
+          <a
+            className="githubLink"
+            href="https://github.com/anthonySchafrik/goonies"
+          >
             Goonies github
           </a>
         </div>
@@ -154,7 +169,10 @@ const WorkPage = () => {
             documents). A user who wished to upload a document may pick a
             category, add a photo, and choose recipients.
           </p>
-          <a href="https://github.com/anthonySchafrik/KidDash">
+          <a
+            className="githubLink"
+            href="https://github.com/anthonySchafrik/KidDash"
+          >
             KidDash github
           </a>
         </div>
