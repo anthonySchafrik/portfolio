@@ -26,20 +26,28 @@ class ResumePage extends Component {
     const { pageNumber, numPages } = this.state;
     const { onDocumentLoadSuccess, handlePageChange } = this;
 
+    const width = window.innerWidth;
+    const toDisplay = width >= 625 ? null : 'none';
+
     return (
       <>
         <div className="ResumePageContainer">
-          <div>
-            <Document
-              onLoadError={console.error}
-              file={resume}
-              onLoadSuccess={onDocumentLoadSuccess}
-            >
-              <Page pageNumber={pageNumber} />
-            </Document>
-          </div>
+          {width >= 625 ? (
+            <div>
+              <Document
+                onLoadError={console.error}
+                file={resume}
+                onLoadSuccess={onDocumentLoadSuccess}
+              >
+                <Page pageNumber={pageNumber} />
+              </Document>
+            </div>
+          ) : (
+            <div style={{ marginBottom: '15px' }}>
+              Screen to small to display Resume
+            </div>
+          )}
         </div>
-
         <div
           className="pageContainer"
           style={{ marginTop: pageNumber === 2 ? '30px' : 0 }}
@@ -48,14 +56,16 @@ class ResumePage extends Component {
             icon={faAngleLeft}
             size="2x"
             onClick={handlePageChange(1)}
+            style={{ display: toDisplay }}
           />
-          <span className="centerWithSideSpace">
+          <span style={{ display: toDisplay }} className="centerWithSideSpace">
             Page {pageNumber} of {numPages}
           </span>
           <FontAwesomeIcon
             icon={faAngleRight}
             size="2x"
             onClick={handlePageChange(2)}
+            style={{ display: toDisplay }}
           />
           <a className="centerWithSideSpace" href={resume} download>
             Click to download Resume
