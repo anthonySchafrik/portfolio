@@ -16,15 +16,23 @@ const HomePage = () => {
           />
         </div>
         <div className="aboutMe">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum
+          I have been around computers since before I can remember. When I was
+          younger, I would watch my dad build and dismantle computers. Some
+          people held the flashlight while their dad worked on a car - I got to
+          do that while my dad worked on computers. I started building and
+          dismantling computers the way other kids would build and dismantle
+          legos, which led to learning about such things as overclocking and
+          water-cooling. My first job was in a PC repair shop, where I was paid
+          to do what I loved - building and dismantling computers! A few years
+          later, a friend of mine introduced me to code. I was immediately
+          hooked, and jumped right in to learning everything I could about
+          programming. During this time, I met other like-minded, driven
+          individuals and worked together to create multiple web applications.
+          From there, I started building my own full-stack application. I find
+          debugging to be my favorite part of programming, and I greatly enjoy
+          the thought of knowing there is near-endless code to learn; the skill
+          ceiling is incredibly high, which makes my accomplishments all the
+          more rewarding. I eagerly await the opportunity to work with you!
         </div>
       </div>
 

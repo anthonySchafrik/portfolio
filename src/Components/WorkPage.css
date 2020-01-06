@@ -10,8 +10,13 @@
 
 .appInfoBoxes {
   background-color: rgb(81, 58, 130);
-  height: 100px;
   margin: 15px 0 15px 0;
+  border-radius: 10px;
+  padding: 0.5vw 0.5vw 0.1vw 0.5vw;
+}
+
+br {
+  margin-top: 5px;
 }
 
 @media (max-width: 900px) {

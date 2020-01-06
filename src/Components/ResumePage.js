@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import resume from '../resume/aSchafrikResume.pdf';
 import './ResumePage.css';
+
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 class ResumePage extends Component {
@@ -17,8 +18,13 @@ class ResumePage extends Component {
     this.setState({ numPages });
   };
 
+  handlePageChange = num => () => {
+    this.setState({ pageNumber: num });
+  };
+
   render = () => {
     const { pageNumber, numPages } = this.state;
+    const { onDocumentLoadSuccess, handlePageChange } = this;
 
     return (
       <>
@@ -27,7 +33,7 @@ class ResumePage extends Component {
             <Document
               onLoadError={console.error}
               file={resume}
-              onLoadSuccess={this.onDocumentLoadSuccess}
+              onLoadSuccess={onDocumentLoadSuccess}
             >
               <Page pageNumber={pageNumber} />
             </Document>
@@ -41,7 +47,7 @@ class ResumePage extends Component {
           <FontAwesomeIcon
             icon={faAngleLeft}
             size="2x"
-            onClick={() => this.setState({ pageNumber: 1 })}
+            onClick={handlePageChange(1)}
           />
           <span className="centerWithSideSpace">
             Page {pageNumber} of {numPages}
@@ -49,7 +55,7 @@ class ResumePage extends Component {
           <FontAwesomeIcon
             icon={faAngleRight}
             size="2x"
-            onClick={() => this.setState({ pageNumber: 2 })}
+            onClick={handlePageChange(2)}
           />
           <a className="centerWithSideSpace" href={resume} download>
             Click to download Resume
