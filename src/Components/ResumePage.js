@@ -43,10 +43,7 @@ class ResumePage extends Component {
           </div>
         </div>
 
-        <div
-          className="pageContainer"
-          style={{ marginTop: pageNumber === 2 ? '30px' : 0 }}
-        >
+        <div className="pageContainer" style={{ marginTop: '30px' }}>
           <FontAwesomeIcon
             icon={faAngleLeft}
             size="2x"
