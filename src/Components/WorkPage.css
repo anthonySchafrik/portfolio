@@ -20,8 +20,25 @@
   color: rgb(216, 210, 229);
 }
 
+.toSmallDisplay {
+  display: none;
+  margin-top: 15px;
+}
+
+.toSmallText {
+  margin: 25px 0 0 5vw;
+  text-align: center;
+  width: 55vw;
+}
+
 @media (max-width: 900px) {
   .workPicContainer {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .toSmallDisplay {
+    display: initial;
   }
 }
